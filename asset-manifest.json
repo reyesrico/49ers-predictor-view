@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/49ers-predictor-view/static/css/main.f4b17646.chunk.css",
-    "main.js": "/49ers-predictor-view/static/js/main.7a5a015b.chunk.js",
-    "main.js.map": "/49ers-predictor-view/static/js/main.7a5a015b.chunk.js.map",
+    "main.js": "/49ers-predictor-view/static/js/main.2487334f.chunk.js",
+    "main.js.map": "/49ers-predictor-view/static/js/main.2487334f.chunk.js.map",
     "runtime-main.js": "/49ers-predictor-view/static/js/runtime-main.50b93a5d.js",
     "runtime-main.js.map": "/49ers-predictor-view/static/js/runtime-main.50b93a5d.js.map",
     "static/js/2.95ee9d4c.chunk.js": "/49ers-predictor-view/static/js/2.95ee9d4c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.50b93a5d.js",
     "static/js/2.95ee9d4c.chunk.js",
     "static/css/main.f4b17646.chunk.css",
-    "static/js/main.7a5a015b.chunk.js"
+    "static/js/main.2487334f.chunk.js"
   ]
 }
