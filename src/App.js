@@ -7,7 +7,7 @@ import './App.css';
 
 const currentYear = 2021;
 const years = [currentYear, 2020];
-const url = 'http://reyesrico.pythonanywhere.com'
+const url = 'https://reyesrico.pythonanywhere.com'
 
 class App extends Component {
   state = {
