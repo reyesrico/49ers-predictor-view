@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/49ers-predictor-view/static/css/main.f4b17646.chunk.css",
+    "main.js": "/49ers-predictor-view/static/js/main.7a5a015b.chunk.js",
+    "main.js.map": "/49ers-predictor-view/static/js/main.7a5a015b.chunk.js.map",
+    "runtime-main.js": "/49ers-predictor-view/static/js/runtime-main.50b93a5d.js",
+    "runtime-main.js.map": "/49ers-predictor-view/static/js/runtime-main.50b93a5d.js.map",
+    "static/js/2.95ee9d4c.chunk.js": "/49ers-predictor-view/static/js/2.95ee9d4c.chunk.js",
+    "static/js/2.95ee9d4c.chunk.js.map": "/49ers-predictor-view/static/js/2.95ee9d4c.chunk.js.map",
+    "static/js/3.9b57a3ea.chunk.js": "/49ers-predictor-view/static/js/3.9b57a3ea.chunk.js",
+    "static/js/3.9b57a3ea.chunk.js.map": "/49ers-predictor-view/static/js/3.9b57a3ea.chunk.js.map",
+    "index.html": "/49ers-predictor-view/index.html",
+    "static/css/main.f4b17646.chunk.css.map": "/49ers-predictor-view/static/css/main.f4b17646.chunk.css.map",
+    "static/js/2.95ee9d4c.chunk.js.LICENSE.txt": "/49ers-predictor-view/static/js/2.95ee9d4c.chunk.js.LICENSE.txt",
+    "static/media/loading.3c3afa39.gif": "/49ers-predictor-view/static/media/loading.3c3afa39.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50b93a5d.js",
+    "static/js/2.95ee9d4c.chunk.js",
+    "static/css/main.f4b17646.chunk.css",
+    "static/js/main.7a5a015b.chunk.js"
+  ]
+}
