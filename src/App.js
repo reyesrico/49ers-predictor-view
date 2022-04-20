@@ -7,6 +7,7 @@ import './App.css';
 
 const currentYear = 2021;
 const years = [currentYear, 2020];
+const server = '192.168.0.116' // localhost
 
 class App extends Component {
   state = {
@@ -20,7 +21,7 @@ class App extends Component {
   componentDidMount() {
     this.loadSchedule();
 
-    axios.get('http://localhost:5000/teams').then(response => {
+    axios.get(`http://${server}:5000/teams`).then(response => {
       this.setState({ teams: response.data.teams });
     });
   }
@@ -53,7 +54,7 @@ class App extends Component {
           weather_humidity: 52
         };
     
-        return axios.get('http://localhost:5000/predict', params);
+        return axios.get(`http://${server}:5000/predict`, params);
       });
   
       console.log('PREDICTING');
