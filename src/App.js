@@ -8,6 +8,7 @@ import './App.css';
 const currentYear = 2021;
 const years = [currentYear, 2020];
 const server = '192.168.0.116' // localhost
+const url = 'https://reyesrico.pythonanywhere.com' // http://localhost:5000
 
 class App extends Component {
   state = {
@@ -21,7 +22,7 @@ class App extends Component {
   componentDidMount() {
     this.loadSchedule();
 
-    axios.get(`http://${server}:5000/teams`).then(response => {
+    axios.get(`${url}/teams`).then(response => {
       this.setState({ teams: response.data.teams });
     });
   }
@@ -53,10 +54,10 @@ class App extends Component {
           weather_wind: 1,
           weather_humidity: 52
         };
-    
-        return axios.get(`http://${server}:5000/predict`, params);
+
+        return axios.get(`${url}/predict`, params);
       });
-  
+
       console.log('PREDICTING');
       this.setState({ isLoading: true });
       Promise.all(promises)
@@ -68,7 +69,7 @@ class App extends Component {
       .finally(() => {
         console.log('FINISHED PREDICTING');
         this.setState({ isLoading: false });
-      });  
+      });
     }
   }
 
@@ -164,7 +165,7 @@ class App extends Component {
           )}
         </div>
       </div>
-    );  
+    );
   }
 }
 
